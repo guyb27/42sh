@@ -74,7 +74,7 @@ static int			geo_prompt(t_prompt prompt)
 int					display_prompt(t_prompt prompt)
 {
 	if (prompt == PROMPT)
-		return (geo_prompt(prompt));
+		return (geo_prompt(prompt) + 1);
 	else if (prompt == B_QUOTE || prompt == S_QUOTE)
 		return (prompt == B_QUOTE ? ft_putstr("bquote> ") :
 				ft_putstr("quote> "));

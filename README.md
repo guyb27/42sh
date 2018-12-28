@@ -1,7 +1,7 @@
 
 
 # 42sh #
-Shell based on bash.
+Shell based on bash optimized for MacOs Mojave.
 
 ## Shell Command Language ##
 
